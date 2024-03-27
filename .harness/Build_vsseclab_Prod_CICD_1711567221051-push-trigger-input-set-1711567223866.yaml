@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_vsseclab_Prod_CICD_1711567221051-push-trigger-input-set
+  identifier: Build_vsseclab_Prod_CICD_1711567221051pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: Drone
+  pipeline:
+    identifier: Build_vsseclab_Prod_CICD_1711567221051
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
